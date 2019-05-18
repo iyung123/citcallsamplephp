@@ -1,7 +1,9 @@
 # Sample Validate mobile number with CITCALL API - Asynchronous Miscall
 How to use
 ------------
+
 Just change API key on req_otp.php file with your API key
+
 Contribute
 ----------
 
