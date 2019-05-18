@@ -1,5 +1,6 @@
 <?php
 session_start();
+header('Content-Type: application/json');
 /**
 |-------------------------------------------------------------------
 | CITCALL
@@ -11,7 +12,6 @@ session_start();
 */
 define("APIKEY", "fe01ce2a7fbac8fafaed7c982a04e229");
 $msisdn = $_POST['phone'];
-header('Content-Type: application/json');
 if($msisdn === "") {
 	$return = array(
 		"error" => TRUE,
@@ -69,7 +69,8 @@ if($rc === "00") {
 	$return = array(
 		"error" => $error,
 		"trxid" => $trxid,
-		"first_token" => $first_token
+		"first_token" => $first_token,
+		"length" => $length
 	);
 } else {
 	$info = $json->info;
