@@ -10,7 +10,7 @@ header('Content-Type: application/json');
 | 2. your userid has been registered and your IP has been filtered in citcall system
 |
 */
-define("APIKEY", "fe01ce2a7fbac8fafaed7c982a04e229");
+define("APIKEY", "YOUR API KEY"); //fill with your API Key
 $msisdn = $_POST['phone'];
 if($msisdn === "") {
 	$return = array(
