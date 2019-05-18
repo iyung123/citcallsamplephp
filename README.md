@@ -12,4 +12,5 @@ Contribute
     `master` branch (or branch off of it)
 3. Write a test which shows that the bug was fixed or that the feature works as expected
 4. Send a pull request and bug us until We merge it
+
 [the_repository]: https://github.com/mchairul/citcallsamplephphtml
