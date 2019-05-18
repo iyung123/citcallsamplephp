@@ -2,7 +2,7 @@
 How to use
 ------------
 
-Just change API key on req_otp.php file with your API key
+Just change API key on [req_otp.php](https://github.com/mchairul/citcallsamplephphtml/blob/master/req_otp.php) file with your API key
 
 Contribute
 ----------
